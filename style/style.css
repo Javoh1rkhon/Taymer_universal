@@ -271,3 +271,16 @@
     color: #DE6F00;
     transition: .5s all linear;
 }
+
+.active {
+    animation: secAnim 1s infinite linear 
+}
+
+@keyframes secAnim {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
